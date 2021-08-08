@@ -10,11 +10,10 @@ from datetime import datetime
 import os
 import json  
 
-# Add
 
 class Game:
     
-    def __init__(self) -> None:
+    def __init__(self):
         # self.difficulty_to = 9999999 # >= 2000000 is easy, <= 100 is rare
         self.difficulty_from = 5000
         self.r = RandomWords()
